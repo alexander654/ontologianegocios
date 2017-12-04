@@ -29,7 +29,22 @@
 
     <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#requiere_insumos_de -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#requiere_insumos_de"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#requiere_insumos_de">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Carpinteria"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Farmacia"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Gimnasio"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Panaderia"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Remontadora"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Restaurante"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Taller_ornamentacion"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Tienda_de_ropa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Cacharreria"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Carniceria"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Farmacia"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Ferreteria"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Gimnasio"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Mercado"/>
+    </owl:ObjectProperty>
     
 
 

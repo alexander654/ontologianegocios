@@ -35,7 +35,12 @@
 
     <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#requiere_servicio_de -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#requiere_servicio_de"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#requiere_servicio_de">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Lavanderia"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Carniceria"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Gimnasio"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Restaurante"/>
+    </owl:ObjectProperty>
     
 
 

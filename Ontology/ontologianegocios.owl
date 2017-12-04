@@ -21,9 +21,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#proveedor_de -->
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#provider_of -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#proveedor_de">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#provider_of">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Cacharreria"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#butchers"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#carpentry"/>
@@ -44,9 +44,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#requiere_insumos_de -->
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#require_inputs_of -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#requiere_insumos_de">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#require_inputs_of">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#bakery"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#carpentry"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#clothing_store"/>
@@ -65,9 +65,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#requiere_servicio_de -->
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#service_required_of -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#requiere_servicio_de">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#service_required_of">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#laundry"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#butchers"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#gym"/>

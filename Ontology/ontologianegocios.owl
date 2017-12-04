@@ -87,9 +87,33 @@
     
 
 
-    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#nit_del_negocio -->
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#business_name -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#nit_del_negocio">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#business_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#bakery"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#butchers"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#carpentry"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#china_shop"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#clothing_store"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#gym"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#hairdressers"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#hardware_store"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#laundry"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#market"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#metal_workshop"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#pharmacy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#restaurant"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#shoe_repair"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#shoe_store"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#stationery_shop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#business_nit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#business_nit">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#bakery"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#butchers"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#carpentry"/>
@@ -111,9 +135,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#nombre_de_negocio -->
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#business_type -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#nombre_de_negocio">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#business_type">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#bakery"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#butchers"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#carpentry"/>
@@ -135,9 +159,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#producto -->
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#product -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#producto">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#product">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#butchers"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#china_shop"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#clothing_store"/>
@@ -151,9 +175,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#productor_de -->
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#productor_of -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#productor_de">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#productor_of">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#bakery"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#carpentry"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#metal_workshop"/>
@@ -163,37 +187,13 @@
     
 
 
-    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#servicio_para -->
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#service_to -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#servicio_para">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#service_to">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#gym"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#hairdressers"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#laundry"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#shoe_repair"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#tipo_de_negocio -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#tipo_de_negocio">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#bakery"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#butchers"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#carpentry"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#china_shop"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#clothing_store"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#gym"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#hairdressers"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#hardware_store"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#laundry"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#market"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#metal_workshop"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#pharmacy"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#restaurant"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#shoe_repair"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#shoe_store"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#stationery_shop"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     

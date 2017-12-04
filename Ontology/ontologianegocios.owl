@@ -33,6 +33,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#requiere_servicio_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#requiere_servicio_de"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //

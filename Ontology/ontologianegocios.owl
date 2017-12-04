@@ -87,6 +87,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#nit_del_negocio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#nit_del_negocio">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Cacharreria"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Carniceria"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Carpinteria"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Farmacia"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Ferreteria"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Gimnasio"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Lavanderia"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Mercado"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Miscelanea"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Panaderia"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Peluqueria"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Remontadora"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Restaurante"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Taller_ornamentacion"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Tienda_de_ropa"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Zapateria"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#nombre_de_negocio -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#nombre_de_negocio"/>

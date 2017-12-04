@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#"
+     xml:base="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Abastece_para_hogar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Abastece_para_hogar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Negocio_abastece"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Abastece_para_negocio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Abastece_para_negocio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Negocio_abastece"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Cacharreria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Cacharreria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Abastece_para_hogar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Carniceria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Carniceria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Abastece_para_negocio"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Carpinteria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Carpinteria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Productor_mobiliario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Farmacia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Farmacia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Abastece_para_hogar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Ferreteria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Ferreteria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Abastece_para_negocio"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Gimnasio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Gimnasio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Negocio_servicio"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Lavanderia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Lavanderia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Negocio_servicio"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Mercado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Mercado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Abastece_para_hogar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Miscelanea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Miscelanea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Abastece_para_hogar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Negocio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Negocio"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Negocio_abastece -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Negocio_abastece">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Negocio"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Negocio_productor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Negocio_productor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Negocio"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Negocio_servicio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Negocio_servicio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Negocio"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Panaderia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Panaderia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Productor_comestibles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Peluqueria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Peluqueria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Negocio_servicio"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Productor_comestibles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Productor_comestibles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Negocio_productor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Productor_mobiliario -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Productor_mobiliario">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Negocio_productor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Remontadora -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Remontadora">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Negocio_servicio"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Restaurante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Restaurante">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Productor_comestibles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Taller_ornamentacion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Taller_ornamentacion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Productor_mobiliario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Tienda_de_ropa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Tienda_de_ropa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Abastece_para_hogar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Zapateria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Zapateria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Abastece_para_hogar"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Cacharreria"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Carniceria"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Carpinteria"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Farmacia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Ferreteria"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Gimnasio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Lavanderia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Mercado"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Miscelanea"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Panaderia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Peluqueria"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Remontadora"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Restaurante"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Taller_ornamentacion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Tienda_de_ropa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#Zapateria"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

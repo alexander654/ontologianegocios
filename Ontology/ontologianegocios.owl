@@ -13,6 +13,29 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#proveedor_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#proveedor_de"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#requiere_insumos_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#requiere_insumos_de"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////

@@ -79,6 +79,47 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#nombre_de_negocio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#nombre_de_negocio"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#producto -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#producto"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#productor_de -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#productor_de"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#servicio_para -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#servicio_para"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#tipo_de_negocio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alexander/ontologies/2017/11/ontologianegocios.owl#tipo_de_negocio"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
